@@ -1,0 +1,1441 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Dott Multi-purpose 
+    Template URI: http://nazmulhaque.com
+    Description: This is a Responsive html5 template
+    Author: Nazmul Haque
+    Author URI: http://nazmulhaque.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+  
+    >>.  Theme Default CSS (body, link color, section etc)
+    >>. HomePage Page Css
+
+        #  header area CSS
+        #  Slider area CSS
+        #  Promo area CSS
+        #  demo area CSS
+        #  latest project area CSS
+        #  partner area CSS
+        #  footer area CSS
+        #  location area CSS
+
+    >>. About Page CSS
+    >>. Portflolio Page CSS
+    >>.  Contact Page Css
+    >>.   Blog Page CSS
+
+
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid;text-decoration: none;}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+a {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #f04316;
+}
+a:active, a:hover {
+  text-decoration: none;
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/*.top-social-icon a:hover,
+.catagory-nav li a:hover{
+}*/
+hr {
+  border-color: #4a4c52;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h2 {
+  text-transform: capitalize;
+}
+body,
+body a {
+    color: #2d2e2e;
+}
+body a:hover,
+body a:focus {
+  color: #ef532b;
+}
+
+.blog-area .section-title > p,
+.about-area .section-title > p{
+    margin: 0;
+}
+.blog-area .section-title,
+.about-area .section-title {
+    margin: 20px 0 15px;
+}
+
+/*
+=======================                       =========================
+======================= >> Home Page Css <<   =========================
+=======================                       =========================
+*/
+
+/*----------------------------------------*/
+/*  1.  header area CSS
+/*----------------------------------------*/
+.header-top {
+  line-height: 38px;
+}
+.top-info span a {
+  font-size: 13px;
+  margin-right: 15px;
+    color: #2d2e2e;
+}
+.top-info span i {
+    margin-right: 5px;
+}
+.top-social-icon a {
+  color: #666;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15px;
+  text-align: center;
+  width: 25px;
+}
+
+.top-social-icon {
+    text-align: right;
+}
+.header-bottom {
+  background-color: #2d2e2e;
+  line-height: 69px;
+}
+.logo.wow.slideInDown {
+  -webkit-animation-delay: .6s;
+     -moz-animation-delay: .6s;
+       -o-animation-delay: .6s;
+          animation-delay: .6s;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 700;
+    display: block;
+}
+.logo a,
+.logo {
+    color: #ffffff;
+}
+.logo a span {
+    color: #f04316;
+    padding-left: 2px;
+}
+/*
+Nav Css
+*/
+.main-nav {
+  margin-right: -20px;
+}
+.main-nav > li {
+  display: inline-block;
+  position: relative;
+}
+.main-nav > li a {
+  color: #f6f6f6;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 3px 18px;
+  text-transform: capitalize;
+}
+.sub-nav {
+  border: 2px solid #424343;
+  left: 0;
+  line-height: 1.7;
+  min-width: 150px;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  top: 130%;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  visibility: hidden;
+}
+.sub-nav > li {
+  margin-bottom: 1px;
+}
+.sub-nav > li:last-child {
+  margin-bottom: 0;
+}
+.sub-nav > li a {
+  background-color: #dddddd;
+  color: gray;
+  display: block;
+  padding: 5px 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.sub-nav > li a:hover {
+  background-color: #2d2e2e;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.main-nav > li:hover > a ,
+.main-nav > li.active{
+    background-color: #383939;
+}
+.main-nav > li:hover .sub-nav {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    z-index: 9;
+}
+
+/*
+  Header Version Two
+*/
+
+.header-v-2 .header-top {
+  background-color: #2d2e2e;
+  line-height: 1.3;
+  padding: 15px 0;
+}
+.header-v-2 .header-bottom {
+    border-top: 1px solid #424343;
+}
+.header-v-2 .main-nav {
+    margin-top: -2px;
+}
+.header-v-2 .main-nav > li > a{
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
+}
+.header-v-2 .main-nav > li:hover > a, 
+.header-v-2 .main-nav > li.active > a {
+  border-top: 1px solid #f04316;
+  background-color: transparent;
+}
+.header-v-2 .main-nav > li:hover > a, 
+.header-v-2 .main-nav > li.active {
+  background-color: transparent;
+}
+
+.mean-container .mean-bar::after {
+  display: none;
+}
+.mobile-menu {
+    position: relative;
+}
+.mobile-menu .logo {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 999999999;
+}
+.mainmenu {
+  position: absolute;
+  width: 90%;
+}
+.mobile-menu-area {
+  background: #2d2e2e none repeat scroll 0 0;
+  padding: 9px 0;
+}
+.mean-container .mean-nav ul li a {
+  background: #383939 none repeat scroll 0 0;
+  color: #fff;
+}
+.mean-container .mean-nav ul li a:hover {
+  background: #2d2e2e none repeat scroll 0 0;
+  color: #ef532b;
+}
+.mean-container .mean-nav ul li {
+  background: #383939 none repeat scroll 0 0;
+  border-top: 1px solid #2d2e2e;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  background: transparent none repeat scroll 0 0;
+  font-size: 20px !important;
+  height: 17px;
+  line-height: 15px;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+  background: transparent none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li li a {
+  border-top: 1px solid #2d2e2e;
+  color: #fff;
+}
+.mobile-menu-area {
+  display: none;
+}
+
+/*----------------------------------------*/
+/*  2.  slider area CSS
+/*----------------------------------------*/
+
+.home-slider {
+    height: 540px;
+    position: relative;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+       background-size: cover;
+    background-position: center center;
+}
+.home-slide-1 {
+    background-image: url(img/slides/slide1-min.jpg);
+}
+.home-slide-2 {
+    background-image: url(img/slides/slide2-min.jpg);
+}
+.home-slide-3 {
+    background-image: url(img/slides/slide3-min.jpg);
+}
+.home-slide-4 {
+    background-image: url(img/slides/slide4-min.jpg);
+}
+.home-slider::after {
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+#home-slider-carousel .carousel-control {
+  bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  top: 0;
+  width: 0;
+  z-index: 4;
+}
+
+#home-slider-carousel .carousel-control.left,
+#home-slider-carousel .carousel-control.right {
+  background-image: none;
+  background-repeat: none;
+}
+#home-slider-carousel .carousel-control.left{
+  left: 4%;
+}
+#home-slider-carousel .carousel-control.left:hover,
+#home-slider-carousel .carousel-control.right:hover{
+    opacity: 1;
+}
+#home-slider-carousel .carousel-control.right {
+  left: auto;
+  right: 4%;
+}
+.home-slider-caption {
+  color: #fff;
+  margin-top: 20%;
+    position: relative;
+    z-index: 5;
+}
+.home-slider-caption h2{
+    font-size: 40px;
+}
+.home-slider-caption p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 29px 0;
+}
+.call-to-action {
+  background-color: #f04316;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.call-to-action:hover {
+  background-color: #2d2e2e;
+  color: #fff;
+}
+.slide h2{
+  -webkit-animation: fadeInUp 1700ms ease-in-out 0s  ;
+  -o-animation: fadeInUp 1700ms ease-in-out 0s  ;
+  -moz-animation: fadeInUp 1700ms ease-in-out 0s  ;
+       animation: fadeInUp 1700ms ease-in-out 0s  ;
+}
+.slide p{
+  -webkit-animation: fadeInUp 1500ms ease-in-out 0s  ;
+  -o-animation: fadeInUp 1500ms ease-in-out 0s  ;
+  -moz-animation: fadeInUp 1500ms ease-in-out 0s  ;
+       animation: fadeInUp 1500ms ease-in-out 0s  ;
+}
+.slide .call-to-action{
+  -webkit-animation: fadeInUp 1300ms ease-in-out 0s  ;
+  -o-animation: fadeInUp 1300ms ease-in-out 0s  ;
+  -moz-animation: fadeInUp 1300ms ease-in-out 0s  ;
+       animation: fadeInUp 1300ms ease-in-out 0s  ;
+}
+
+
+/*----------------------------------------*/
+/*  3.  promo area CSS
+/*----------------------------------------*/
+.section-padding{
+    padding: 80px 0;
+}
+.promo-area {
+  background-color: #fff;
+  text-align: center;
+}
+.single-promo > span {
+  font-size: 36px;
+}
+.single-promo .fa-rocket {
+    color: #f04316;
+}
+.single-promo span.fa-sliders {
+    color: #13acbe;
+}
+.single-promo span.fa-puzzle-piece {
+    color: #f9d615;
+}
+.single-promo span.fa-life-ring {
+    color: #00b96d;
+}
+
+.single-promo h3 {
+  font-size: 20px;
+  margin: 7px 0 32px;
+  position: relative;
+}
+.single-promo h3::after ,
+.section-title h2::after,
+.member-details h5::after {
+  background-color: #2d2e2e;
+  bottom: -16px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  margin-left: -17px;
+  position: absolute;
+  width: 34px;
+}
+.single-promo  p{
+  color: #666666;
+}
+.single-promo  p,
+.demo-details p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2 {
+  font-size: 36px;
+  margin: 58px 0 50px;
+  position: relative;
+  text-transform: capitalize;
+}
+.section-title > p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.promo-down .single-promo {
+  margin-top: 45px;
+}
+.single-promo:hover .fa {
+    -webkit-transform: scale(1.3);
+       -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+         -o-transform: scale(1.3);
+            transform: scale(1.3);
+}
+.single-promo .fa {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+
+/*----------------------------------------*/
+/*  4.  demo area CSS
+/*----------------------------------------*/
+.home-demo-area.section-padding {
+  padding-bottom: 0;
+}
+.demo-details h3 {
+  font-size: 24px;
+  margin: 42px 0;
+  position: relative;
+}
+.demo-details h3::after,
+.single-latest-project-details h3::after,
+.work-together-details h1::after,
+.portfolio-single-post-details h3::after,
+.address-area h4::after,
+.contact-page-social h4::after,
+.contact-inner-social > h4:after {
+  background-color: #2d2e2e;
+  bottom: -16px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 34px;
+}
+.demo-details .call-to-action {
+  margin-right: 14px;
+}
+.demo-details  p{
+  color: #2d2e2e;
+}
+.demo-details .call-to-action {
+  margin-top: 21px;
+}
+.demo-img {
+  text-align: right;
+}
+
+/*----------------------------------------*/
+/*  5.  latest project area CSS
+/*----------------------------------------*/
+.latest-project-area {
+  background-color: #fff;
+}
+.section-padding.latest-project-area {
+  padding-bottom: 0;
+}
+.latest-project-area .section-title > h2 {
+  margin-top: 0;
+}
+.bottom-latest-project {
+  background-color: #f6f6f6;
+  margin-top: 18px;
+}
+.single-latest-product {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.single-latest-project-details {
+  color: #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  top: -30%;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 2;
+}
+.single-latest-project-details h3,
+.portfolio-single-post-details h3{
+  font-size: 36px;
+  margin-bottom: 52px;
+  position: relative;
+}
+.single-latest-project-details h3::after {
+  background-color: #fff;
+}
+.single-latest-project-details,
+.work-together-details,
+.portfolio-single-post-details{
+  font-size: 20px;
+  font-weight: 300;
+}
+.single-latest-project-details span,
+.portfolio-single-post-details span {
+  font-weight: 700;
+}
+.single-latest-project-details .normal-p,
+.portfolio-single-post-details .normal-p{
+  font-size: 16px;
+  margin-top: 27px;
+}
+.single-latest-project-details .normal-p i,
+.portfolio-single-post-details .normal-p i{
+  font-size: 19px;
+  margin-right: 7px;
+}
+
+.single-latest-project-details::after {
+    background-color: #f04316;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 30%;
+    z-index: -1;
+}
+.single-latest-project-details:hover::after {
+    opacity: 0.7;
+    width: 100%;
+}
+.single-latest-product:hover .single-latest-project-details {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+
+
+
+
+/*----------------------------------------*/
+/*  6.  work together area CSS
+/*----------------------------------------*/
+.work-together-area{
+    background-color: #ffffff;
+}
+.work-together-area.section-padding {
+  padding: 80px 0;
+}
+.work-together-details h1 {
+  font-size: 40px;
+  margin-bottom: 48px;
+  margin-top: 0;
+  position: relative;
+}
+.work-together-details .call-to-action {
+  margin-top: 22px;
+  background-color: #2d2e2e;
+}
+.work-together-details .call-to-action:hover {
+  background-color: #f04316;
+  color: #fff;
+}
+/*----------------------------------------*/
+/*  7.  partner area CSS
+/*----------------------------------------*/
+.partners-area {
+  background-color: #f6f6f6;
+  padding: 64px 0;
+}
+.single-partner a > img:hover {
+  opacity: 0.7;
+}
+/*----------------------------------------*/
+/*  8.  Footer area CSS
+/*----------------------------------------*/
+.top-footer{
+    background-color: #40affd;
+    color: #fff;
+}
+.dott-content {
+  line-height: 1.5;
+  padding: 15px 0;
+}
+.dott-content a {
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  line-height: 0.7;
+  position: absolute;
+  top: 15px;
+}
+.dott-content > p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 0 45px;
+}
+.main-footer{
+    background-color: #2d2e2e;   
+  color: #9ba1ac;
+    font-size: 14px;
+}
+.main-footer-inner {
+  padding: 49px 0 20px;
+}
+.copyright-text {
+  text-align: center;
+}
+.main-footer p{
+  margin: 0;
+    
+}
+.footer-col-two h4 {
+  color: #eef5f7;
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer-single-post span {
+  color: #fff;
+  display: block;
+  padding-top: 9px;
+}
+.footer-col-two form,
+.search-form{
+  position: relative;
+}
+.footer-col-two form input[type="email"],
+.search-form input[type="search"]{
+  background-color: #515359;
+  border: medium none;
+  color: #9ba1ac;
+  font-size: 14px;
+  padding: 8px 64px 8px 11px;
+  width: 100%;
+}
+.footer-col-two form input[type="submit"],
+.search-form input[type="submit"]{
+  background-color: #747980;
+  border: medium none;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 20px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.footer-col-two form input[type="submit"]:hover,
+.search-form input[type="submit"]:hover{
+  background-color: #f04316;
+}
+.footer-col-two .top-social-icon {
+  text-align: left;
+}
+.footer-photo {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  height: 58px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  width: 58px;
+}
+.footer-photo > img {
+  width: 100%;
+}
+.copyright-text > p {
+  padding: 25px 0;
+}
+
+/*----------------------------------------*/
+/*  9.  Location area CSS
+/*----------------------------------------*/
+.breadcrumb-area{
+  padding: 5px 0;
+}
+.breadcrumb {
+  background-color: inherit;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  margin-bottom: 0;
+  padding: 6px 0;
+  text-transform: capitalize;
+}
+.breadcrumb > li + li::before {
+  color: inherit;
+}
+
+/*
+=======================                               =========================
+======================= >> About Page CSS <<     =========================
+=======================                               =========================
+*/
+
+.about-content {
+    margin-top: 35px;
+}
+.about-text {
+    padding-top: 25px;
+}
+.about-text blockquote {
+    border: 0 none;
+    color: inherit;
+    float: left;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0 10px 4px 45px;
+    position: relative;
+    width: 50%;
+}
+.about-text blockquote::before {
+    content: "";
+    font-family: fontawesome;
+    font-size: 25px;
+    font-style: italic;
+    left: 0;
+    position: absolute;
+    top: 10%;
+}
+.about-text p{
+    margin-bottom: 0;
+}
+.about-text .quote-title {
+    margin-top: 5px;
+    display: block;
+}
+.about-text .quote-title,
+.about-text blockquote::before {
+    color: #dddddd;
+}
+.about-area .fa-facebook {
+  color: #3b5998;
+}
+
+.about-area .fa-twitter {
+  color: #1da1f2;
+}
+
+.about-area .fa-google-plus {
+  color: #dd4b39;
+}
+
+.about-area .fa-dribbble {
+  color: #ea4c89;
+}
+
+.about-area .fa-pinterest {
+  color: #bd081c;
+}
+
+.single-social {
+    display: inline-block;
+    font-size: 1.2em;
+    opacity: 0.8;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 35px;
+}
+.single-social:hover {
+    opacity: 1;
+}
+.single-team-member {
+  margin-top: 35px;
+  text-align: center;
+}
+.member-details {
+    background-color: #f6f6f6;
+    padding: 15px 0;
+}
+.member-details h5 {
+    font-weight: 300;
+    margin-bottom: 35px;
+    position: relative;
+}
+.member-img {
+    overflow: hidden;
+}
+.single-team-member:hover .member-img img {
+    -webkit-transform: scale(1.2) rotate(10deg);
+       -moz-transform: scale(1.2) rotate(10deg);
+        -ms-transform: scale(1.2) rotate(10deg);
+         -o-transform: scale(1.2) rotate(10deg);
+            transform: scale(1.2) rotate(10deg);
+}
+.single-team-member,
+.member-img img,
+.single-price-box {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-team-member:hover,
+.single-price-box:hover {
+  -webkit-box-shadow: 0 5px 4px 0 #dddddd;
+          box-shadow: 0 5px 4px 0 #dddddd;
+}
+
+
+
+/*
+      Pricing AREA CSS
+*/
+
+.pricing-area.section-padding {
+    margin-top: 80px;
+    padding-top: 22px;
+}
+.single-price-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #666666;
+    font-size: 1.1em;
+    padding: 27px 0;
+}
+.single-price-box h4 {
+  text-transform: capitalize;
+}
+.single-price-box h4,
+.price span {
+    color: #2d2e2e;
+}
+.price-list > li {
+    margin: 6px 0;
+}
+.price-list {
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+    padding-top: 13px;
+}
+.price {
+    font-size: 75px;
+    line-height: 1;
+}
+.price sup {
+  left: 15px;
+  top: -1.3em;
+}
+.price sub, .price sup {
+  font-size: 35%;
+}
+.price sub {
+  bottom: 0;
+  left: -15px;
+}
+
+.single-price-box {
+    margin-top: 80px;
+    position: relative;
+}
+.best-price {
+    background-color: #f04316;
+    color: #ffffff;
+    left: 0;
+    line-height: 1;
+    padding-top: 15px;
+    position: absolute;
+    text-transform: capitalize;
+    top: 1px;
+    -webkit-transform: translateY(-100%);
+       -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+            transform: translateY(-100%);
+    width: 100%;
+}
+
+.btn-colored.current {
+    background-color: #f04316;
+}
+.single-price-box:hover .btn-colored {
+    background-color: #f04316;
+}
+
+
+/*
+=======================                               =========================
+======================= >> Portflolio Page CSS <<     =========================
+=======================                               =========================
+*/
+
+
+.portfolio-area{
+    background-color: #fff;
+}
+.portfolio-control {
+  font-weight: 500;
+  margin: 55px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.portfolio-control ul li {
+  -webkit-border-radius: 17px;
+          border-radius: 17px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 11px 20px;
+    border: 1px solid #fff;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.portfolio-control ul li:hover,
+.portfolio-control ul li:focus,
+.portfolio-control ul li.on{
+  border: 1px solid #bfbfbf;
+}
+.portfolio-mixitup .mix{
+    display: none;
+}
+.portfolio-single-post {
+  margin-bottom: 65px;
+}
+.portfolio-single-post-img > img {
+  width: 100%;
+}
+.portfolio-single-post-details h3 {
+  margin-bottom: 47px;
+  margin-top: 0;
+}
+.portfolio-single-post-details .normal-p {
+  margin: 14px 0;
+}
+.portfolio-single-post-details .call-to-action {
+  background-color: #747980;
+  height: 35px;
+  line-height: 35px;
+}
+.portfolio-single-post-details .call-to-action:hover,
+.main-contact-form button:hover{
+    background-color: #f04316;
+}
+
+.portfolio-single-post-img::after {
+    background-color: rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.portfolio-single-post-img {
+    position: relative;
+}
+
+
+.portfolio-pagination {
+    margin-bottom: 67px;
+}
+.portfolio-pagination ul li {
+    display: inline-block;
+}
+.portfolio-pagination ul li a {
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 8px;
+}
+.portfolio-pagination ul li a:hover,
+.portfolio-pagination ul li.pagination-active a{
+    color: #f04316;
+}
+.portfolio-single-post-img{
+  overflow: hidden;
+}
+.portfolio-single-post-img img{
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+.portfolio-single-post:hover .portfolio-single-post-img img {
+    -webkit-transform: scale(1.2) rotate(5deg);
+       -moz-transform: scale(1.2) rotate(5deg);
+        -ms-transform: scale(1.2) rotate(5deg);
+         -o-transform: scale(1.2) rotate(5deg);
+            transform: scale(1.2) rotate(5deg);
+}
+.porfolio-pagination {
+    margin-bottom: 80px;
+}
+.portfolio-single-post:last-child {
+    margin-bottom: 35px;
+}
+
+
+
+/*
+=======================                         =========================
+======================= >> Contact Page Css <<  =========================
+=======================                         =========================
+*/
+
+.contact-page-map {
+    margin-top: 60px;
+}
+.contact-area {
+    padding: 20px 0 80px;
+}
+
+.contact-sidebar .search-widget {
+    margin: 0;
+}
+.contact-sidebar .single-aside:first-child {
+    margin-top: 0;
+}
+.contact-sidebar, .contact-inner {
+    margin-top: 40px;
+}
+
+.contact-inner-social {
+    margin-top: 35px;
+}
+
+.address-area > h4, .contact-inner-social > h4 {
+    margin-bottom: 35px;
+    position: relative;
+}
+.contact-inner-social .top-social-icon {
+    text-align: left;
+}
+.contact-inner-social .top-social-icon a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+button{
+  border: 0;
+}
+
+.main-contact-form .form-control {
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-bottom: 15px;
+}
+.main-contact-form .form-control:focus {
+  border-color: rgba(240, 67, 22, .50);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.main-contact-form textarea.form-control {
+    margin: 0;
+    min-height: 110px;
+}
+.contact-page-map #googleMap {
+  height: 400px;
+}
+
+/*
+=======================                         =========================
+======================= >> Blog Page CSS <<     =========================
+=======================                         =========================
+*/
+
+.blog-area .section-title h2 {
+    margin-top: 0;
+}
+.dark-bg {
+    background-color: #f6f6f6;
+}
+.blog-area {
+  padding: 35px 0 40px;
+}
+.blog-bottom-content h3 {
+    color: #2d2e2e;
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+.blog-bottom-content h3::after {
+    background-color: #2d2e2e;
+    bottom: -12px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 34px;
+}
+.blog-bottom-content {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.blog-timetable li {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+}
+.blog-timetable li::after {
+    color: #acacaa;
+    content: "/";
+    left: 100%;
+    margin-left: 7px;
+    position: absolute;
+    top: 0;
+}
+.blog-timetable li a {
+    color: #acacaa;
+    display: block;
+    text-transform: capitalize;
+}
+.blog-timetable li a:hover {
+  color: #f04316;
+}
+.blog-timetable li:last-child::after {
+    display: none;
+}
+.blog-timetable li:last-child a {
+    display: inline-block;
+    margin: 0 3px;
+}
+.btn-colored {
+    background-color: #747980;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 6px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.btn-colored:hover,
+.btn-colored:focus{
+    background-color: #f04316;
+    color: #fff;
+    padding-right: 35px;
+}
+.single-blog-item {
+  background-color: #f6f6f6;
+  margin-top: 40px;
+  padding: 5px;
+}
+.search-widget .form-control {
+  border: 0 none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #666;
+  height: 25px;
+}
+.search-widget {
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.search-widget .serch-btn {
+    background: #747980 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-weight: 700;
+    height: 37px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    width: 45px;
+}
+.search-widget .serch-btn:hover {
+    background: #f04316 none repeat scroll 0 0;
+}
+
+.single-aside h4 {
+    color: #2d2e2e;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.single-aside {
+    margin-top: 25px;
+}
+.single-recent-post {
+    color: #666;
+    margin-top: 15px;
+}
+.single-recent-post a {
+    color: #acacac;
+}
+.single-recent-post p {
+    margin-bottom: 8px;
+}
+
+.single-recent-post:hover a {
+    color: #666;
+}
+.single-recent-post a:hover {
+    color: #f04316;
+}
+.post-tags a {
+    background-color: #f6f6f6;
+    color: #2d2e2e;
+    display: inline-block;
+    margin: 2px 0;
+    padding: 4px 8px;
+    text-transform: lowercase;
+}
+.post-tags a:hover {
+    background-color: #d64e2a;
+    color: #fff;
+}
+.photo-stream li a {
+    background-color: #f04316;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.photo-stream li {
+    display: inline-block;
+}
+.photo-stream li:nth-child(2n) a {
+    background-color: #ddd;
+}
+.photo-stream li:nth-child(2n+3) a {
+    background-color: #d64e2a;
+}
+.category-nav.fa-ul {
+  margin-left: 20px;
+}
+.category-nav li a {
+    color: #666;
+    display: block;
+    font-weight: 300;
+}
+.category-nav li a:hover {
+    color: #f04316;
+}
+.category-nav.fa-ul .fa-li {
+    margin-top: 2px;
+}
+.blog-top-content {
+    margin-bottom: 25px;
+}
+
+.blog-top-content .item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 10%;
+  left: 0;
+  opacity: 0;
+  padding: 10px 0 15px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  visibility: hidden;
+  width: 100%;
+}
+.carousel-caption > p {
+  margin: 0;
+}
+.blog-top-content .item.active .carousel-caption {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}
+
+.fawesome-control {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: inline-block;
+    font-size: 42px;
+    height: 50px;
+    line-height: 1;
+    margin-top: -25px;
+    opacity: 0;
+    padding-top: 2px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+.left.fawesome-control {
+    left: -20px;
+}
+.right.fawesome-control {
+    right: -20px;
+}
+#fawesome-carousel:hover .left.fawesome-control{
+    left: 0;
+}
+#fawesome-carousel:hover .right.fawesome-control{
+    right: 0;
+}
+#fawesome-carousel:hover .fawesome-control{
+    opacity: 1;
+}
+.fawesome-control:hover, .fawesome-control:focus {
+  color: #f04316;
+}
+
+/*
+Pagination CSS
+*/
+
+
+.blog-pagination {
+  margin: 30px 0 20px;
+}
+.custom-pagination {
+    border: 1px solid #eee;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+.custom-pagination li {
+    float: left;
+}
+.custom-pagination li a {
+    border-right: 1px solid #eee;
+    color: #666;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.custom-pagination li:last-child a {
+    border-right: 0 none;
+}
+.custom-pagination li.active a,
+.custom-pagination li:hover a,
+.custom-pagination li:focus a {
+  background-color: #747980;
+  color: #fff;
+  text-decoration: none;
+}
+.custom-pagination .disabled a {
+    cursor: not-allowed;
+}
+.custom-pagination li.disabled a:hover {
+    background-color: #fff;
+    color: #666;
+}
